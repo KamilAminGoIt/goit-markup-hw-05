@@ -553,7 +553,7 @@ address .link {
     justify-content: center;
     align-items: center;
 
-    transition-property: background-color;
+    transition-property: background-color, border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -695,6 +695,10 @@ address .link {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+
+    transition-property: border, background-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 input[type="checkbox"]:checked + .privacy-label .privacy-checkbox {
